@@ -6,8 +6,8 @@
         $character_ID = htmlentities(strtolower($_GET['character-id'])); 
 
         $ts = time();
-        $public_key = '90814ea2f3d43967798aa37a32e622b4';
-        $private_key = 'bfe31c44a9e2d4513c780a0ccd7dccf3edcea96b';
+        $public_key = 'REDACTED';
+        $private_key = 'REDACTED';
         $hash = md5($ts . $private_key . $public_key);
 
         $query = array(
