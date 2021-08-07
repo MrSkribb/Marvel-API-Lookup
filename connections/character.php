@@ -20,7 +20,7 @@
 
         );
 
-        // https://gateway.marvel.com:443/v1/public/characters/1009368/comics?format=comic&formatType=comic&orderBy=title&apikey=90814ea2f3d43967798aa37a32e622b4
+        
 
         $marvel_url = 'https://gateway.marvel.com:443/v1/public/characters/' . $character_ID . "/comics" . "?" . http_build_query($query);
        
